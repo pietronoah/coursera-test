@@ -29,6 +29,7 @@ h1 {
    margin: auto;
 }
 
+
 .navbar-brand {
   margin-bottom: 20px;
 }
@@ -48,18 +49,21 @@ h1 {
   overflow-y: auto;
   background-color: white;
 }
+.navbar-default{background-color: gray}
 
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-  border: 3px solid black;
-  }
-
-  ul.separator {
-    list-style: none;
-    padding: 0;
-    width: 100%;
-  }
+@media (max-width: 767px) {
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: 3px solid black;
+    }
   
-  ul.separator li {
-    padding: .5em 0;
-    border-bottom: 1px solid black;
-  }
+    ul.separator {
+      list-style: none;
+      padding: 0;
+      width: 100%;
+    }
+    
+    ul.separator li {
+      padding: .5em 0;
+      border-bottom: 1px solid black;
+    }
+}
